@@ -1,88 +1,91 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc 5.3.0 mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\IDEprj\coide\exo\exoprj\cmsis -ID:\IDEprj\coide\exo\exoprj\cmsis_boot -ID:\IDEprj\coide\exo\exoprj\CoOS\kernel -ID:\IDEprj\coide\exo\exoprj\CoOS\portable -ID:\IDEprj\coide\exo\exoprj\stm_lib -ID:\IDEprj\coide\exo\exoprj\CoOS -ID:\IDEprj\coide\exo\exoprj\stm_lib\inc -ID:\IDEprj\coide\exo -ID:\IDEprj\coide\exo\exoprj">
-      <target file="timer.o" lastModified="15c10343547">
+   <processor signature="arm-none-eabi-gcc 5.3.0 mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\IDEprj\coide\exo\exoprj\cmsis -ID:\IDEprj\coide\exo\exoprj\user_lib -ID:\IDEprj\coide\exo\exoprj\cmsis_boot -ID:\IDEprj\coide\exo\exoprj\CoOS\kernel -ID:\IDEprj\coide\exo\exoprj\CoOS\portable -ID:\IDEprj\coide\exo\exoprj\stm_lib -ID:\IDEprj\coide\exo\exoprj\CoOS -ID:\IDEprj\coide\exo\exoprj\stm_lib\inc -ID:\IDEprj\coide\exo -ID:\IDEprj\coide\exo\exoprj">
+      <target file="timer.o" lastModified="15c16678a80">
          <source file="..\..\..\CoOS\kernel\timer.c" lastModified="15c1023a8c7"/>
       </target>
-      <target file="mbox.o" lastModified="15c10343987">
+      <target file="mbox.o" lastModified="15c16678f8c">
          <source file="..\..\..\CoOS\kernel\mbox.c" lastModified="15c1023a87f"/>
       </target>
-      <target file="event.o" lastModified="15c10343c2a">
+      <target file="event.o" lastModified="15c1667921b">
          <source file="..\..\..\CoOS\kernel\event.c" lastModified="15c1023a86a"/>
       </target>
-      <target file="mutex.o" lastModified="15c10343e57">
+      <target file="mutex.o" lastModified="15c16679455">
          <source file="..\..\..\CoOS\kernel\mutex.c" lastModified="15c1023a888"/>
       </target>
-      <target file="stm32f10x_rcc.o" lastModified="15c10343911">
+      <target file="stm32f10x_rcc.o" lastModified="15c16678f1a">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15c101e904b"/>
       </target>
-      <target file="hook.o" lastModified="15c1034409e">
+      <target file="hook.o" lastModified="15c16679685">
          <source file="..\..\..\CoOS\kernel\hook.c" lastModified="15c1023a874"/>
       </target>
-      <target file="misc.o" lastModified="15c10343fc0">
+      <target file="misc.o" lastModified="15c166795b4">
          <source file="..\..\..\stm_lib\src\misc.c" lastModified="15c1024bd20"/>
       </target>
-      <target file="serviceReq.o" lastModified="15c1034381e">
+      <target file="serviceReq.o" lastModified="15c16678dad">
          <source file="..\..\..\CoOS\kernel\serviceReq.c" lastModified="15c1023a8b7"/>
       </target>
-      <target file="time.o" lastModified="15c10343bb7">
+      <target file="time.o" lastModified="15c166791a0">
          <source file="..\..\..\CoOS\kernel\time.c" lastModified="15c1023a8c2"/>
       </target>
-      <target file="queue.o" lastModified="15c10343de5">
+      <target file="queue.o" lastModified="15c166793e6">
          <source file="..\..\..\CoOS\kernel\queue.c" lastModified="15c1023a8ad"/>
       </target>
-      <target file="kernelHeap.o" lastModified="15c10343461">
+      <target file="kernelHeap.o" lastModified="15c1667899a">
          <source file="..\..\..\CoOS\kernel\kernelHeap.c" lastModified="15c1023a87a"/>
       </target>
-      <target file="sem.o" lastModified="15c10344035">
+      <target file="sem.o" lastModified="15c16679624">
          <source file="..\..\..\CoOS\kernel\sem.c" lastModified="15c1023a8b3"/>
       </target>
-      <target file="port.o" lastModified="15c10343d72">
+      <target file="port.o" lastModified="15c16679372">
          <source file="..\..\..\CoOS\portable\GCC\port.c" lastModified="15c1023a8de"/>
       </target>
-      <target file="stm32f10x_gpio.o" lastModified="15c103437b3">
+      <target file="stm32f10x_gpio.o" lastModified="15c16678d44">
          <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15c101edc19"/>
       </target>
-      <target file="task.o" lastModified="15c10343723">
+      <target file="task.o" lastModified="15c16678cbe">
          <source file="..\..\..\CoOS\kernel\task.c" lastModified="15c1023a8bd"/>
       </target>
-      <target file="system_stm32f10x.o" lastModified="15c10343635">
+      <target file="system_stm32f10x.o" lastModified="15c16678bda">
          <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15c101e906a"/>
       </target>
-      <target file="core.o" lastModified="15c103434cb">
+      <target file="core.o" lastModified="15c16678a05">
          <source file="..\..\..\CoOS\kernel\core.c" lastModified="15c1023a865"/>
       </target>
-      <target file="arch.o" lastModified="15c10343f44">
+      <target file="arch.o" lastModified="15c1667953b">
          <source file="..\..\..\CoOS\portable\arch.c" lastModified="15c1023a8d9"/>
       </target>
-      <target file="syscalls.o" lastModified="15c10343d0e">
+      <target file="syscalls.o" lastModified="15c16679304">
          <source file="..\..\..\syscalls\syscalls.c" lastModified="15c1021c51a"/>
       </target>
-      <target file="CoOS App Framework.o" lastModified="15c12642b50">
-         <source file="..\..\..\example\CoOS App Framework.c" lastModified="15c12641982"/>
+      <target file="CoOS App Framework.o" lastModified="15c16678e8a">
+         <source file="..\..\..\example\CoOS App Framework.c" lastModified="15c157a7b7f"/>
       </target>
-      <target file="startup_stm32f10x_hd.o" lastModified="15c1034369f">
+      <target file="startup_stm32f10x_hd.o" lastModified="15c16678c3e">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="15c101e905a"/>
       </target>
-      <target file="flag.o" lastModified="15c10343ed9">
+      <target file="flag.o" lastModified="15c166794d4">
          <source file="..\..\..\CoOS\kernel\flag.c" lastModified="15c1023a86f"/>
       </target>
-      <target file="mm.o" lastModified="15c103439fa">
-         <source file="..\..\..\CoOS\kernel\mm.c" lastModified="15c1023a883"/>
-      </target>
-      <target file="stm32f10x_tim.o" lastModified="15c103433ed">
-         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15c1020ac5a"/>
-      </target>
-      <target file="stm32f10x_adc.o" lastModified="15c10343aa5">
+      <target file="stm32f10x_adc.o" lastModified="15c16679095">
          <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15c101eea59"/>
       </target>
-      <target file="utility.o" lastModified="15c103435b6">
+      <target file="mm.o" lastModified="15c16678ffb">
+         <source file="..\..\..\CoOS\kernel\mm.c" lastModified="15c1023a883"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="15c16678928">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15c1020ac5a"/>
+      </target>
+      <target file="usart_rxtx.o" lastModified="15c1668c18f">
+         <source file="..\..\..\example\usart_rxtx.c" lastModified="15c1668607e"/>
+      </target>
+      <target file="utility.o" lastModified="15c16678ae8">
          <source file="..\..\..\CoOS\kernel\utility.c" lastModified="15c1023a8cc"/>
       </target>
-      <target file="main.o" lastModified="15c1264d32d">
-         <source file="..\..\..\main.c" lastModified="15c1264d08b"/>
+      <target file="main.o" lastModified="15c1668c202">
+         <source file="..\..\..\main.c" lastModified="15c166837b7"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="15c10343b3c">
+      <target file="stm32f10x_usart.o" lastModified="15c1667912a">
          <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15c101eeeae"/>
       </target>
    </processor>
