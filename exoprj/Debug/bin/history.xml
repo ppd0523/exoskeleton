@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=exoprj.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\exoprj -TC:\CooCox\CoIDE\configuration\ProgramData\exoprj/arm-gcc-link.ld -g">
+      <target file="exoprj.elf" lastModified="15c1264d6dc">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15c103433ed"/>
+         <source file="..\obj\kernelHeap.o" lastModified="15c10343461"/>
+         <source file="..\obj\core.o" lastModified="15c103434cb"/>
+         <source file="..\obj\timer.o" lastModified="15c10343547"/>
+         <source file="..\obj\utility.o" lastModified="15c103435b6"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15c10343635"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="15c1034369f"/>
+         <source file="..\obj\task.o" lastModified="15c10343723"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15c103437b3"/>
+         <source file="..\obj\serviceReq.o" lastModified="15c1034381e"/>
+         <source file="..\obj\main.o" lastModified="15c1264d32d"/>
+         <source file="..\obj\CoOS App Framework.o" lastModified="15c12642b50"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15c10343911"/>
+         <source file="..\obj\mbox.o" lastModified="15c10343987"/>
+         <source file="..\obj\mm.o" lastModified="15c103439fa"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15c10343aa5"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15c10343b3c"/>
+         <source file="..\obj\time.o" lastModified="15c10343bb7"/>
+         <source file="..\obj\event.o" lastModified="15c10343c2a"/>
+         <source file="..\obj\syscalls.o" lastModified="15c10343d0e"/>
+         <source file="..\obj\port.o" lastModified="15c10343d72"/>
+         <source file="..\obj\queue.o" lastModified="15c10343de5"/>
+         <source file="..\obj\mutex.o" lastModified="15c10343e57"/>
+         <source file="..\obj\flag.o" lastModified="15c10343ed9"/>
+         <source file="..\obj\arch.o" lastModified="15c10343f44"/>
+         <source file="..\obj\misc.o" lastModified="15c10343fc0"/>
+         <source file="..\obj\sem.o" lastModified="15c10344035"/>
+         <source file="..\obj\hook.o" lastModified="15c1034409e"/>
+      </target>
+   </processor>
+</history>
